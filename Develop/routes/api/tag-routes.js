@@ -14,8 +14,8 @@ router.get('/', (req, res) => {
         through: ProductTag
       }
     ]
-  }).then((tags) => res.json(200).json(tags))
-  .catch((err) => res.json(400).json(err))
+  }).then((tags) => res.status(200).json(tags))
+  .catch((err) => res.status(400).json(err))
 });
 
 router.get('/:id', (req, res) => {
