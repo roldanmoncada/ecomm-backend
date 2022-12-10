@@ -34,8 +34,8 @@ router.get('/:id', (req, res) => {
         through: ProductTag
       }
     ]
-  }).then((product) => res.json(200).json(product))
-  .catch((err) => res.json(400).json(err))
+  }).then((product) => res.status(200).json(product))
+  .catch((err) => res.status(400).json(err))
 });
 
 // create new product
