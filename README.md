@@ -55,4 +55,4 @@ Here is the result of the GET route for all Tags:
 
 Here is a link to my GitHub [repo!](https://github.com/roldanmoncada/ecomm-backend)
 
-Here is the live [app!](https://roldanmoncada.github.io/ecomm-backend)
+Here is the walkthrough [video!](https://drive.google.com/file/d/1I5R66937QN4MYkqABVCBr8vcAjoREyM3/view)
